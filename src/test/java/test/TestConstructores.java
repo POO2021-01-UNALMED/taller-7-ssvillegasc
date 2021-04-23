@@ -26,7 +26,7 @@ public class TestConstructores {
 			new String [] { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"},
 			"Alfabeto latino");
 	public static Fabula fabula = new Fabula("pensamiento", "La tortuga y la liebre", "Esopo", 2, 
-			"no se debe uno burlar de los demás, ni presumir o ser vanidoso", "Cuento corto");
+			"no se debe uno burlar de los demas, ni presumir o ser vanidoso", "Cuento corto");
 	
 	public static Libro libro = new Libro("Creacion", "El resplandor", "Stephen King", 599, "N/A", "Doubleday", "Primera", "Escrito largo");
 	
@@ -49,7 +49,7 @@ public class TestConstructores {
 		boolean ok = false;
 		if(fabula.getOrigen().equals("pensamiento") && fabula.getTitulo().equals("La tortuga y la liebre") && 
 				fabula.getAutor().equals("Esopo") && fabula.getPaginas() == 2 && 
-				fabula.getEnsenanza().equals("no se debe uno burlar de los demás, ni presumir o ser vanidoso")) {
+				fabula.getEnsenanza().equals("no se debe uno burlar de los demas, ni presumir o ser vanidoso")) {
 			ok = true;
 		}
 		assertTrue(ok, "Hay un error en los constructores de la clase Fabula");
