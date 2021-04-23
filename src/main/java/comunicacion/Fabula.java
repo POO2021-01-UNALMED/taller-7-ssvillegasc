@@ -31,8 +31,7 @@ public class Fabula extends Escrito {
     @Override
     public String toString() {
         String cadena = resumen() + "\n";
-        cadena += ensenanza + "\n";
-        cadena += interpretacion;
+        cadena += ensenanza;
         return cadena;
     }
 

@@ -35,8 +35,7 @@ public class Periodico extends Escrito {
     public String toString() {
         String cadena = resumen() + "\n";
         cadena += fecha + "\n";
-        cadena += primicia + "\n";
-        cadena += interpretacion;
+        cadena += primicia;
         return cadena;
     }
 

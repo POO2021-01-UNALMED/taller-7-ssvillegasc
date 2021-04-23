@@ -39,8 +39,7 @@ public class Libro extends Escrito {
         String cadena = resumen() + "\n";
         cadena += co_autor + "\n";
         cadena += editorial + "\n";
-        cadena += edicion + "\n";
-        cadena += interpretacion;
+        cadena += edicion;
         return cadena;
     }
 

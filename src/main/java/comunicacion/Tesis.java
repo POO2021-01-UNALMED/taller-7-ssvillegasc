@@ -42,8 +42,7 @@ public class Tesis extends Escrito {
         String cadena = resumen() + "\n";
         cadena += idea + "\n";
         cadena += argumentos.length + "\n";
-        cadena += conclusion + "\n";
-        cadena += interpretacion;
+        cadena += conclusion;
         return cadena;
     }
 
