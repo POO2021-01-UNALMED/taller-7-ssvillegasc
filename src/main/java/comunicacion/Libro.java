@@ -16,7 +16,7 @@ public class Libro extends Escrito {
             String co_autor,
             String editorial,
             String edicion,
-            String interpretacion){
+            String interpretacion) {
         super(origen, titulo, autor, paginas);
         this.co_autor = co_autor;
         this.editorial = editorial;
@@ -26,7 +26,7 @@ public class Libro extends Escrito {
 
     @Override
     public int palabrasTotales(int palabrasPagina) {
-        return getPaginas() * factor;
+        return getPaginas() * palabrasPagina * factor;
     }
 
     @Override

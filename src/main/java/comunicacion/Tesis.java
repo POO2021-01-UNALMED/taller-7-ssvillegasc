@@ -18,7 +18,7 @@ public class Tesis extends Escrito {
             String[] argumentos,
             String conclusion,
             String referencias,
-            String interpretacion){
+            String interpretacion) {
         super(origen, titulo, autor, paginas);
         this.idea = idea;
         this.argumentos = argumentos;
@@ -29,7 +29,7 @@ public class Tesis extends Escrito {
 
     @Override
     public int palabrasTotales(int palabrasPagina) {
-        return getPaginas() * factor;
+        return getPaginas() * palabrasPagina * factor;
     }
 
     @Override

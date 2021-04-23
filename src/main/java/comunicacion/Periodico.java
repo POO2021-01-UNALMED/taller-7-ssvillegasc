@@ -14,7 +14,7 @@ public class Periodico extends Escrito {
             int paginas,
             String fecha,
             String primicia,
-            String interpretacion){
+            String interpretacion) {
         super(origen, titulo, autor, paginas);
         this.fecha = fecha;
         this.primicia = primicia;
@@ -23,7 +23,7 @@ public class Periodico extends Escrito {
 
     @Override
     public int palabrasTotales(int palabrasPagina) {
-        return getPaginas() * factor;
+        return getPaginas() * palabrasPagina * factor;
     }
 
     @Override

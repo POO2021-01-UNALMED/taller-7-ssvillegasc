@@ -12,7 +12,7 @@ public class Fabula extends Escrito {
             String autor,
             int paginas,
             String ensenanza,
-            String interpretacion){
+            String interpretacion) {
         super(origen, titulo, autor, paginas);
         this.ensenanza = ensenanza;
         this.interpretacion = interpretacion;
@@ -20,7 +20,7 @@ public class Fabula extends Escrito {
 
     @Override
     public int palabrasTotales(int palabrasPagina) {
-        return getPaginas() * factor;
+        return getPaginas() * palabrasPagina * factor;
     }
 
     @Override
